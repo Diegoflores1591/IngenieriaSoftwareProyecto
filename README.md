@@ -2,6 +2,12 @@
 
 Somos el **Equipo 7** y nuestro proyecto consiste en el cálculo del perímetro, área y volumen de un polígono regular de *n* lados.
 
+![Fórmulas utilizadas en el proyecto](https://github.com/Diegoflores1591/IngenieriaSoftwareProyecto/blob/main/Imagen%20de%20WhatsApp%202024-10-10%20a%20las%2019.30.18_e1fae781.jpg)
+
+> La imagen anterior muestra las fórmulas matemáticas empleadas para realizar los cálculos en este proyecto.
+
+## Cálculo del Perímetro y del Área
+
 ## Cálculo del Perímetro y del Área
 La implementación para calcular el perímetro y el área se encuentra en el archivo:
 - [`src/Application/Poligono_Regular.cs`](https://github.com/Diegoflores1591/IngenieriaSoftwareProyecto/blob/main/src/Application/poligono_regular.cs)
