@@ -6,7 +6,6 @@ Somos el **Equipo 7** y nuestro proyecto consiste en el cálculo del perímetro,
 
 > La imagen anterior muestra las fórmulas matemáticas empleadas para realizar los cálculos en este proyecto.
 
-## Cálculo del Perímetro y del Área
 
 ## Cálculo del Perímetro y del Área
 La implementación para calcular el perímetro y el área se encuentra en el archivo:
