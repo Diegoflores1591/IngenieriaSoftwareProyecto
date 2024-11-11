@@ -35,7 +35,7 @@ namespace Application.UnitTest
 
         // Define los atributos con los que se ejecutaran las pruebas
         [Theory]
-        [InlineData(4, 4, 5, 40)] // (4*4*5)/2 = 40
+        [InlineData(4, 4, 5, 40)] 
         [InlineData(6, 6, 6, 108)]
         [InlineData(40, 45, 58, 52200)] 
         [InlineData(6.68, 6.24, 60.8, 1218.4319999999998)]
