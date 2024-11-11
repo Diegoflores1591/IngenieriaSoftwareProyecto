@@ -14,9 +14,12 @@ public class UnitTestPoligono_regular_volumen
 {
      // Define los atributos con los que se ejecutaran las pruebas   
     [Theory]
-    [InlineData(16, 4, 64)] // (16*4) = 64
-    [InlineData(25, 6, 150)]// (25*6) = 150
-
+    [InlineData(16, 4, 64)]                
+    [InlineData(25, 6, 150)]               
+    [InlineData(65, 82, 5330)]             
+    [InlineData(31.65, 89.67, 2838.0555)]  
+    [InlineData(16, 85, 1360)]             
+    
     //Establece que el TestVolumen usara Area, h y volumen
     public void TestVolumen(double Area, double h, double Volumen)
     {

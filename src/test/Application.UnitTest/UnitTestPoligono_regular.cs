@@ -15,7 +15,11 @@ namespace Application.UnitTest
         // Define los atributos con los que se ejecutaran las pruebas
         [Theory]
         [InlineData(4, 4, 16)] // 4*4 = 16
-        [InlineData(5, 6, 30)] // 5*6 = 30
+        [InlineData(5, 6, 30)] 
+        [InlineData(45, 44, 1980)] 
+        [InlineData(55.65, 6.50, 333.89999999999998)] 
+        [InlineData(49.37, 4.54, 246.84999999999999)] 
+       
 
         //Establece que el TestPerimetro usara b, n y perimetro
         public void TestPerimetro(double b, int n, double perimetro)
@@ -32,7 +36,11 @@ namespace Application.UnitTest
         // Define los atributos con los que se ejecutaran las pruebas
         [Theory]
         [InlineData(4, 4, 5, 40)] // (4*4*5)/2 = 40
-        [InlineData(6, 6, 6, 108)]// (6*6*6)/2 =100
+        [InlineData(6, 6, 6, 108)]
+        [InlineData(40, 45, 58, 52200)] 
+        [InlineData(6.68, 6.24, 60.8, 1218.4319999999998)]
+        [InlineData(48, 48, 58, 66816)]
+        
 
         //Establece que el TestArea usara b, n y area
         public void TestArea(double b, int n, double h, double area)

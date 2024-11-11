@@ -14,8 +14,12 @@ public class IntegrationTestApplication
 {
  // Define los atributos con los que se ejecutaran las pruebas   
  [Theory]
-    [InlineData(4, 4, 5)] //(4*4*5)/2 = Area
-    [InlineData(5, 6, 3)]  //(5*6*3)/2 = Area
+    [InlineData(4, 4, 5)]     //(4*4*5)/2 = Area
+    [InlineData(5, 6, 3)]     //(5*6*3)/2 = Area
+    [InlineData(60.5, 33.3, 22.5)]  //(66*33*22)/2 = Area
+    [InlineData(15, 56, 23)]  //(15*56*23)/2 = Area
+    [InlineData(55, 68, 31)]  //(55*68*31)/2 = Area
+    [InlineData(61.5, 34.3, 52.5)]
 
     //Estabece que el TestVolumen usara b, n y h
     public void TestVolumen(double b, int n, double h) 
