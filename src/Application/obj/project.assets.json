@@ -9,7 +9,7 @@
   },
   "packageFolders": {
     "C:\\Users\\diego\\.nuget\\packages\\": {},
-    "D:\\VisualSDK\\NuGetPackages": {}
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -21,7 +21,7 @@
       "outputPath": "C:\\Users\\diego\\ingenieria_software\\IngenieriaSoftwareProyecto\\src\\Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\VisualSDK\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
         "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",

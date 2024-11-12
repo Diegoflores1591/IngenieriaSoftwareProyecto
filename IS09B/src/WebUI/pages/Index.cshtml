@@ -1,0 +1,35 @@
+@* code .\src\WebUI\Pages\Index.cshtml *@
+@page
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@functions
+{
+    double perimetro;
+    double area;
+    double volumen;
+
+    public void OnPost(double b, int n, double h, double Area)
+    {
+        perimetro = Application.Poligono_regular.Perimetro( b,  n);
+        area =  Application.Poligono_regular.Area( b,  n,  h);
+        volumen = Application.Poligono_regular_volumen.Volumen( Area,  h);
+    }
+}
+
+<h1>
+    Calculadora de Área y Perímetro del Cuadrado
+</h1>
+
+<form method="Post">
+    Dame el tamaño de la base: <input type="number" name="b">
+    <br>
+    Dame el numero de lados: <input type="number" name="n">
+    <br>
+    Dame la altura: <input type="number" name="h">
+    <br>
+    <button>Calcular</button>
+</form>
+
+<p>
+    Área: @(area)cm2<br>Perímetro: @(perimetro)cm<br>Volumen: @(volumen)cm3
+</p>
